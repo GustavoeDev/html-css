@@ -1,0 +1,55 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to bottom, #ffe4d4, #ffe4d4da);
+}
+
+li{
+    list-style-type: none;
+}
+
+.cabecalho{
+    min-height: 100px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cabecalho-header-logo{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho-header-nav{
+    margin: 0 2rem;
+}
+
+.cabecalho-header-nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.cabecalho-header-imagem{
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.conteudo-principal{
+    padding: 20px;
+    border: 1px solid red;
+    background-color: white;
+    min-width: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
